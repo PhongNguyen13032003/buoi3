@@ -1,1 +1,2 @@
 E:\LuuDuLieuSinhVien\2033212285-NguyenNhuPhong\buoi3\buoi3\buoi3\bin\Debug\buoi3.exe.config
+E:\LuuDuLieuSinhVien\2033212285-NguyenNhuPhong\buoi3\buoi3\buoi3\obj\Debug\buoi3.csprojResolveAssemblyReference.cache

@@ -38,23 +38,27 @@ namespace buoi3
             }
         }
 
-        private SinhVien()
+        public SinhVien()
         {
             maSV = 011;
             hoTen = "Nguyen Van A";
             diemLT = 4.5;
             diemTH = 7.5;
         }
-        private SinhVien(int maSV, string hoTen, double diemLT, double diemTH)
+        public SinhVien(int maSV, string hoTen, double diemLT, double diemTH)
         {
             this.maSV = maSV;
             this.hoTen = hoTen;
             this.diemLT = diemLT;
             this.diemTH = diemTH;
         }
-        private double diemTB()
+        public double diemTB()
         {
             return (diemLT + diemTH) / 2;
+        }
+        public override string ToString()
+        {
+            return string.Format("{0,-10}{1,-20}{2,-10}{3,-10}{4,-10}", maSV, hoTen, diemLT.ToString("F2"), diemTH.ToString("F2"), DiemTB.ToString("F2"));
         }
     }
 }
